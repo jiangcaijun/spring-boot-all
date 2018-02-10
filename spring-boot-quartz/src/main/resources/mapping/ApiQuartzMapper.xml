@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ishansong.weatherdown.mapper.ApiQuartzMapper">
+  <resultMap id="BaseResultMap" type="ApiQuartz">
+    <id column="job_class_name" jdbcType="VARCHAR" property="jobClassName" />
+    <result column="job_group_name" jdbcType="VARCHAR" property="jobGroupName" />
+    <result column="job_cron" jdbcType="VARCHAR" property="jobCron" />
+    <result column="job_desc" jdbcType="VARCHAR" property="jobDesc" />
+  </resultMap>
+
+  <sql id="Base_Column_List">
+    t.job_class_name, t.job_group_name,  t.job_cron,  t.job_desc
+  </sql>
+
+  <select id="selectAll" resultMap="BaseResultMap">
+    select 
+    <include refid="Base_Column_List" />
+    from api_quartz t
+  </select>
+
+</mapper>
