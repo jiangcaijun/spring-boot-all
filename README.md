@@ -11,8 +11,8 @@
 </parent>
 ```
 ### 环境
-* jdk 8+
-* maven 3.* (Spring Boot提供了一系列的依赖包，所以需要构建工具的支持：maven 或 gradle，该项目采用前者)
+* jdk 8
+* maven 3 (Spring Boot提供了一系列的依赖包，所以需要构建工具的支持：maven 或 gradle，该项目采用前者)
 
 ### 各模块分类
 | 项目名 | 描述 |
@@ -23,7 +23,6 @@
 | spring-boot-kafka | 包含producer与consumer |
 | others | 其他，待续。。。 |
 
-### FAQ
 ### FAQ
 1、项目中实体类model中，`@Data`报错。
 
