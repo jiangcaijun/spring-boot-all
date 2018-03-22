@@ -1,4 +1,4 @@
-package com.joe.quartz.config;
+package com.joe.config;
 
 import org.quartz.spi.TriggerFiredBundle;
 import org.springframework.beans.factory.config.AutowireCapableBeanFactory;

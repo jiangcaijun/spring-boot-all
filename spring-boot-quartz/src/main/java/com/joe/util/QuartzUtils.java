@@ -1,6 +1,6 @@
-package com.joe.quartz.util;
+package com.joe.util;
 
-import com.joe.quartz.job.BaseJob;
+import com.joe.job.BaseJob;
 import org.quartz.*;
 
 /**

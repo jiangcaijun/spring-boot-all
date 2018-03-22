@@ -1,4 +1,4 @@
-package com.joe.quartz.job;
+package com.joe.job;
 
 import org.quartz.Job;
 import org.quartz.JobExecutionContext;

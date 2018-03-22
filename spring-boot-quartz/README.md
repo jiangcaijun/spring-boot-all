@@ -34,9 +34,9 @@ CREATE TABLE `api_quartz` (
   PRIMARY KEY (`job_class_name`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
-INSERT INTO `api_quartz` VALUES ('com.joe.quartz.job.ConditionJob', 'group-name', '0/10 * * * * ?','天气实况');
-INSERT INTO `api_quartz` VALUES ('com.joe.quartz.job.Forecast24hoursJob', 'group-name', '0/20 * * * * ?','天气预报24小时');
-INSERT INTO `api_quartz` VALUES ('com.joe.quartz.job.Forecast15daysJob', 'group-name', '0/30 * * * * ?','天气预报15天');
+INSERT INTO `api_quartz` VALUES ('ConditionJob', 'group-name', '0/10 * * * * ?','天气实况');
+INSERT INTO `api_quartz` VALUES ('Forecast24hoursJob', 'group-name', '0/20 * * * * ?','天气预报24小时');
+INSERT INTO `api_quartz` VALUES ('Forecast15daysJob', 'group-name', '0/30 * * * * ?','天气预报15天');
 ```
 
 其中,时间间隔`corn`表达式的书写，可参考：http://cron.qqe2.com/

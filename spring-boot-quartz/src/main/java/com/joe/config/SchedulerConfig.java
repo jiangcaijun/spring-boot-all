@@ -1,4 +1,4 @@
-package com.joe.quartz.config;
+package com.joe.config;
 
 import java.io.IOException;
 import java.util.Properties;

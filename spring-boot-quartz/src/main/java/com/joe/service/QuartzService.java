@@ -1,6 +1,7 @@
-package com.joe.quartz.service;
+package com.joe.service;
 
-import com.joe.quartz.model.ApiQuartz;
+import com.joe.model.ApiQuartz;
+
 import java.util.List;
 
 /**

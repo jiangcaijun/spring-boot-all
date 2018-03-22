@@ -1,12 +1,10 @@
-package com.joe.quartz.service.impl;
+package com.joe.service.impl;
 
-import com.joe.quartz.mapper.ApiQuartzMapper;
-import com.joe.quartz.model.ApiQuartz;
-import com.joe.quartz.service.QuartzService;
-import com.joe.quartz.util.QuartzUtils;
+import com.joe.mapper.ApiQuartzMapper;
+import com.joe.model.ApiQuartz;
+import com.joe.service.QuartzService;
+import com.joe.util.QuartzUtils;
 import org.quartz.*;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Service;

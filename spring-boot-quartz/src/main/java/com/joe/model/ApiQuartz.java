@@ -1,4 +1,4 @@
-package com.joe.quartz.model;
+package com.joe.model;
 
 import lombok.Data;
 

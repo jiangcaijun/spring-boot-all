@@ -1,6 +1,6 @@
-package com.joe.quartz.listener;
+package com.joe.listener;
 
-import com.joe.quartz.service.QuartzService;
+import com.joe.service.QuartzService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;

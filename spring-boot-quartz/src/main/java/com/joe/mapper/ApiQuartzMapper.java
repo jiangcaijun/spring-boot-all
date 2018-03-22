@@ -1,6 +1,6 @@
-package com.joe.quartz.mapper;
+package com.joe.mapper;
 
-import com.joe.quartz.model.ApiQuartz;
+import com.joe.model.ApiQuartz;
 import org.apache.ibatis.annotations.Mapper;
 
 import java.util.List;
