@@ -1,7 +1,7 @@
-package com.joe.service;
+package com.joe.mybatis.service;
 
-import com.joe.models.PageDo;
-import com.joe.models.Zcdc;
+import com.joe.mybatis.model.PageDo;
+import com.joe.mybatis.model.Zcdc;
 import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;

@@ -1,7 +1,7 @@
-package com.joe;
+package com.joe.mybatis;
 
-import com.joe.models.PageDo;
-import com.joe.service.ZcdcService;
+import com.joe.mybatis.model.PageDo;
+import com.joe.mybatis.service.ZcdcService;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -22,5 +22,4 @@ public class SpringBootMybatisApplicationTests {
 		System.out.println(String.format("获取数据的条数：%s", pageDo.getTotal()));
 		System.out.println(String.format("获取数据：%s", pageDo.getRows()));
 	}
-
 }

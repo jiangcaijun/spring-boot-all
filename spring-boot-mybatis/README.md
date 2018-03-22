@@ -10,7 +10,7 @@
 │   │   ├── main                
 │   │   │   ├── java/com/joe             
 │   │   │   │   ├── mapper          // interface 层,对应mybatis的 xml
-│   │   │   │   ├── models          // 实体类
+│   │   │   │   ├── model          // 实体类
 │   │   │   │   ├── service         // service接口层
 │   │   │   │   │   ├── impl        // service接口的实现层
 │   │   │   │   ├── util            // 工具类

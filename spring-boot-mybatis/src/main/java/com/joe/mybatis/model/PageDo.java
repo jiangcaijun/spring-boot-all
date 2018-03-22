@@ -1,4 +1,4 @@
-package com.joe.models;
+package com.joe.mybatis.model;
 
 import lombok.Data;
 import java.util.ArrayList;

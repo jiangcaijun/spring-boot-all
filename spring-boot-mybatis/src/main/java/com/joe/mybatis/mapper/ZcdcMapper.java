@@ -1,7 +1,7 @@
-package com.joe.mapper;
+package com.joe.mybatis.mapper;
 
-import com.joe.models.PageDo;
-import com.joe.models.Zcdc;
+import com.joe.mybatis.model.PageDo;
+import com.joe.mybatis.model.Zcdc;
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
 

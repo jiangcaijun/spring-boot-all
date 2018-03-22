@@ -1,4 +1,4 @@
-package com.joe.models;
+package com.joe.mybatis.model;
 
 import com.alibaba.fastjson.annotation.JSONField;
 import com.fasterxml.jackson.annotation.JsonFormat;

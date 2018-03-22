@@ -1,4 +1,4 @@
-package com.joe.util;
+package com.joe.mybatis.util;
 
 import com.alibaba.fastjson.JSONObject;
 import org.apache.commons.lang.StringUtils;
