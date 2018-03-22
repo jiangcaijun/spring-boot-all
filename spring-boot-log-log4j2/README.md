@@ -56,3 +56,6 @@ public class SpringBootLogApplicationTests {
 ### 运行
 `junit`方法运行,效果如下：
 ![log4j2日志运行效果图](https://raw.githubusercontent.com/jiangcaijun/pictureAsset/HEAD/src/spring-boot-all/log_2018-03-21.jpeg)
+
+### 其他
+`log4j2`的日志输出格式，可参考官方链接：[http://logging.apache.org/log4j/2.x/manual/layouts.html](http://logging.apache.org/log4j/2.x/manual/layouts.html)
