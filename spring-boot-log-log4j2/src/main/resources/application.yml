@@ -1,0 +1,9 @@
+server:
+  port: 8766     #指定服务端口
+  tomcat:
+    uri-encoding: utf-8
+
+#LOGGING
+logging:
+  config:
+    classpath: log4j2-spring.xml
