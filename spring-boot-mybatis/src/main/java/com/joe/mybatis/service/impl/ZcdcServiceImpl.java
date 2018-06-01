@@ -1,21 +1,25 @@
 package com.joe.mybatis.service.impl;
 
+import com.joe.mybatis.controller.TestController;
 import com.joe.mybatis.mapper.ZcdcMapper;
 import com.joe.mybatis.model.PageDo;
 import com.joe.mybatis.model.Zcdc;
 import com.joe.mybatis.service.ZcdcService;
 import com.joe.mybatis.util.DateUtil;
 import org.apache.commons.lang.StringUtils;
-import org.apache.log4j.Logger;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 import javax.annotation.Resource;
 import java.util.List;
 
 @Service
+@Transactional
 public class ZcdcServiceImpl implements ZcdcService {
 
-	private final Logger LOG = Logger.getLogger(this.getClass());
+	private static Logger LOG = LoggerFactory.getLogger(TestController.class);
 
 	@Resource
 	private ZcdcMapper zcdcZxMapper;

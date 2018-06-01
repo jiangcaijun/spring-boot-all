@@ -1,8 +1,10 @@
 package com.joe.mybatis.util;
 
 import com.alibaba.fastjson.JSONObject;
+import com.joe.mybatis.controller.TestController;
 import org.apache.commons.lang.StringUtils;
-import org.apache.log4j.Logger;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
@@ -14,7 +16,8 @@ import java.util.*;
  */
 public class DateUtil {
 
-	private static final Logger LOG = Logger.getLogger(DateUtil.class);
+	private static Logger LOG = LoggerFactory.getLogger(TestController.class);
+
 	private static SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
 	private static SimpleDateFormat format = new SimpleDateFormat("yyyy-MM-dd");
 	private static Calendar c = Calendar.getInstance();

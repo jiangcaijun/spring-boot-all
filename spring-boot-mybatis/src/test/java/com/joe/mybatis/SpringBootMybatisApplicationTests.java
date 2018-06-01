@@ -17,9 +17,8 @@ public class SpringBootMybatisApplicationTests {
 
 	@Test
 	public void contextLoads() {
-		PageDo pageDo = new PageDo();
-		zcdcService.findDataGrid(pageDo);
-		System.out.println(String.format("获取数据的条数：%s", pageDo.getTotal()));
-		System.out.println(String.format("获取数据：%s", pageDo.getRows()));
+		for(int i = 0; i < 10; i++){
+			System.out.println(zcdcService.queryById(i + ""));
+		}
 	}
 }

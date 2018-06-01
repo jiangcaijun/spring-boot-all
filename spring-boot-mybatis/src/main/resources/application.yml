@@ -1,3 +1,8 @@
+server:
+  port: 8790     #指定服务端口
+  tomcat:
+    uri-encoding: utf-8
+
 spring:
   http:
     encoding:
@@ -29,3 +34,9 @@ spring:
 mybatis:
   mapper-locations: classpath:mapping/*.xml
   type-aliases-package: com.joe.mybatis.model
+
+
+#LOGGING
+logging:
+  config:
+    classpath: log4j2-spring.xml
